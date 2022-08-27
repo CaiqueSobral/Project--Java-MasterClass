@@ -1,7 +1,8 @@
-package academy.learnprogramming;
+package academy.examples;
 
-public class Main {
-  public static void main(String[] args) {
+public class E1NumberCheck {
+  
+  public static void exemple() {
     System.out.println("The number was " + checkNumber(10));
   }
 
