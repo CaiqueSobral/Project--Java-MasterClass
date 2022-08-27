@@ -1,9 +1,9 @@
-package academy.learnprogramming;
+package academy.examples;
 
 import java.util.Scanner;
 
-public class Main {
-  public static void main(String[] args) {
+public class E2Scanner {
+  public static void exemple() {
     Scanner scanner = new Scanner(System.in);
     System.out.println("What is your name");
     String name = scanner.nextLine();
