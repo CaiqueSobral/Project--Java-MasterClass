@@ -1,6 +1,6 @@
-package com.oop;
+package com.starter.oop;
 
-import com.oop.interfaces.Car;
+import com.starter.oop.interfaces.Car;
 
 public class Main {
   public static void main(String[] args) {

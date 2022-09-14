@@ -1,4 +1,4 @@
-package academy.examples;
+package com.starter.academy.examples;
 
 public class E1NumberCheck {
   

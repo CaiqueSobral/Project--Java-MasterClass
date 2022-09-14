@@ -1,18 +1,15 @@
-package academy.examples;
+package com.starter.academy.learnprogramming;
 
 import java.util.Scanner;
 
-public class E2Scanner {
-  public static void exemple() {
+public class Main {
+  public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
     System.out.println("What is your name");
     String name = scanner.nextLine();
-
-    System.out.println("How old are you?");
-    int age = scanner.nextInt();
+    scanner.nextLine();
 
     System.out.println("Your name is " + name);
-    System.out.println("You are " + age + " years old");
     scanner.close();
   }
 }

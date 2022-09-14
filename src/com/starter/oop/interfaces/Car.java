@@ -1,4 +1,4 @@
-package com.oop.interfaces;
+package com.starter.oop.interfaces;
 
 public class Car {
   private int doors;
