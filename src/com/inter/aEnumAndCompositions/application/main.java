@@ -16,6 +16,4 @@ public class main {
 
         System.out.println(os1 + " " + os2);
     }
-
-
 }
