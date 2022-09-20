@@ -36,8 +36,7 @@ public class Reservation {
     public long duration() {
         long diff = checkOut.getTime() - checkIn.getTime();
         // Calculate duration in days, between days
-        TimeUnit.DAYS.convert(diff, TimeUnit.MILLISECONDS);
-        return diff;
+        return TimeUnit.DAYS.convert(diff, TimeUnit.MILLISECONDS);
     }
 
     public void updateDates(Date checkIn, Date checkOut) {
