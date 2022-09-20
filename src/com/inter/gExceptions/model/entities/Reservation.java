@@ -40,6 +40,14 @@ public class Reservation {
     }
 
     public void updateDates(Date checkIn, Date checkOut) {
+        Date now = new Date();
+
+        if (checkIn.before(now) || checkOut.before(now)) {
+            throw new IllegalArgumentException("Reservation dates must be for future dates");
+        }
+        if (!checkOut.after(checkIn)) {
+            throw new IllegalArgumentException("Check-out must be after check-in date");
+        }
         this.checkIn = checkIn;
         this.checkOut = checkOut;
     }
