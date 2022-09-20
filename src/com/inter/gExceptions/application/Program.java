@@ -1,0 +1,7 @@
+package com.inter.gExceptions.application;
+
+public class Program {
+    public static void main(String[] args) {
+
+    }
+}
