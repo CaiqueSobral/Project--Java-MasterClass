@@ -1,4 +1,4 @@
-package com.inter.fAbstractExamples.entities;
+package com.inter.fAbstractExamples.aAbstractClasses.entities;
 
 public class BusinessAccount extends Account {
     private Double loanLimit;

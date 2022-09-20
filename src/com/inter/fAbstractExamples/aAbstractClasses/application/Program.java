@@ -1,8 +1,8 @@
-package com.inter.fAbstractExamples.application;
+package com.inter.fAbstractExamples.aAbstractClasses.application;
 
-import com.inter.fAbstractExamples.entities.Account;
-import com.inter.fAbstractExamples.entities.BusinessAccount;
-import com.inter.fAbstractExamples.entities.SavingsAccount;
+import com.inter.fAbstractExamples.aAbstractClasses.entities.Account;
+import com.inter.fAbstractExamples.aAbstractClasses.entities.BusinessAccount;
+import com.inter.fAbstractExamples.aAbstractClasses.entities.SavingsAccount;
 
 import java.util.ArrayList;
 import java.util.List;

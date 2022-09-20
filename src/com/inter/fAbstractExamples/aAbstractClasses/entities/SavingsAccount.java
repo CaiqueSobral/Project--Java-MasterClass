@@ -1,4 +1,4 @@
-package com.inter.fAbstractExamples.entities;
+package com.inter.fAbstractExamples.aAbstractClasses.entities;
 
 public final class SavingsAccount extends Account {
     private Double interestRate;
