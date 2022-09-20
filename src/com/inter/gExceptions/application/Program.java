@@ -1,6 +1,7 @@
 package com.inter.gExceptions.application;
 
 import com.inter.gExceptions.model.entities.Reservation;
+import com.inter.gExceptions.model.exceptions.DomainException;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -28,7 +29,7 @@ public class Program {
             System.out.println("Reservation: " + reservation);
             System.out.println();
 
-            System.out.print("Update reservation");
+            System.out.println("Update reservation");
 
             System.out.print("Check-in date (dd/MM/yyyy): ");
             checkIn = sdf.parse(sc.next());
@@ -39,10 +40,13 @@ public class Program {
             System.out.println("Reservation: " + reservation);
         } catch (ParseException e) {
             System.out.println("Invalid date format");
-        } catch (IllegalArgumentException e) {
+        } catch (DomainException e) {
             System.out.println("Error in reservation: " + e.getMessage());
-        } finally {
-            sc.close();
+        } catch (RuntimeException e) {
+            System.out.println("Unexpected error:");
         }
+
+        sc.close();
+
     }
 }
