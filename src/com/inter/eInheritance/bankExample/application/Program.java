@@ -35,5 +35,18 @@ public class Program {
             acc5.updateBalance();
             System.out.println("Update!");
         }
+
+        // OVERRIDE
+        Account accO1 = new Account(1001, "Caique", 1000.0);
+        accO1.withdraw(200.0);
+        System.out.println(accO1.getBalance());
+
+        Account accO2 = new SavingsAccount(1002, "Suxu", 1000.0, 0.01);
+        accO2.withdraw(200.0);
+        System.out.println(accO2.getBalance());
+
+        Account accO3 = new BusinessAccount(1003, "Bob", 1000.0, 500.0);
+        accO3.withdraw(200.0);
+        System.out.println(accO3.getBalance());
     }
 }
