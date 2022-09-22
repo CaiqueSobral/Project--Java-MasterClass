@@ -1,4 +1,4 @@
-package com.inter.gExceptions.example2.model.services;
+package com.inter.iInterfaces.example2.model.services;
 
 public interface TaxService {
 

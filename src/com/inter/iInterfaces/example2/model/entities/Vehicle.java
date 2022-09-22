@@ -1,4 +1,4 @@
-package com.inter.gExceptions.example2.model.entities;
+package com.inter.iInterfaces.example2.model.entities;
 
 public class Vehicle {
 

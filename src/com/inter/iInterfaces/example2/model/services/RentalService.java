@@ -1,7 +1,7 @@
-package com.inter.gExceptions.example2.model.services;
+package com.inter.iInterfaces.example2.model.services;
 
-import com.inter.gExceptions.example2.model.entities.CarRental;
-import com.inter.gExceptions.example2.model.entities.Invoice;
+import com.inter.iInterfaces.example2.model.entities.CarRental;
+import com.inter.iInterfaces.example2.model.entities.Invoice;
 
 public class RentalService {
 
