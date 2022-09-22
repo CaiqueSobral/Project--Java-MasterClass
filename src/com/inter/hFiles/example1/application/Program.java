@@ -1,4 +1,4 @@
-package com.inter.hFiles.application;
+package com.inter.hFiles.example1.application;
 
 import java.io.File;
 import java.io.IOException;
