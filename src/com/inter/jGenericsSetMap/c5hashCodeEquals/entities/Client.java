@@ -1,4 +1,4 @@
-package com.inter.jGenericsSetMap.hashCodeEquals.entities;
+package com.inter.jGenericsSetMap.c5hashCodeEquals.entities;
 
 import java.util.Objects;
 

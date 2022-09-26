@@ -1,6 +1,6 @@
-package com.inter.jGenericsSetMap.hashCodeEquals.application;
+package com.inter.jGenericsSetMap.c5hashCodeEquals.application;
 
-import com.inter.jGenericsSetMap.hashCodeEquals.entities.Client;
+import com.inter.jGenericsSetMap.c5hashCodeEquals.entities.Client;
 
 public class Program {
 
