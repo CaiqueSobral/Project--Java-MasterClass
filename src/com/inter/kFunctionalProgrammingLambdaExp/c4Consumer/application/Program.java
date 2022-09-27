@@ -29,9 +29,9 @@ public class Program {
         list.forEach(cons);
         */
 
+
         double factor = 1.1;
         list.forEach(p -> p.setPrice(p.getPrice() * factor));
-
         list.forEach(System.out::println);
     }
 }
