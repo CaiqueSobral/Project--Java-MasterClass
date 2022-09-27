@@ -25,9 +25,8 @@ public class Program {
 
         //Function<Product, String> func = p -> p.getName().toUpperCase();
         //names = list.stream().map(func).collect(Collectors.toList());
-        
-        names = list.stream().map(p -> p.getName().toUpperCase()).collect(Collectors.toList());
 
+        names = list.stream().map(p -> p.getName().toUpperCase()).collect(Collectors.toList());
         names.forEach(System.out::println);
     }
 }
